@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-15T10:04:54 CST" name="Default suite" finished-at="2022-01-15T10:04:58 CST" duration-ms="3471">
+    <groups>
+    </groups>
+    <test started-at="2022-01-15T10:04:54 CST" name="Default test" finished-at="2022-01-15T10:04:58 CST" duration-ms="3471">
+      <class name="cogTestNG.TryTestNG1">
+        <test-method is-config="true" signature="tngmethod2()[pri:0, instance:cogTestNG.TryTestNG1@378542de]" started-at="2022-01-15T10:04:54 CST" name="tngmethod2" finished-at="2022-01-15T10:04:54 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tngmethod2 -->
+        <test-method signature="tngmethod1()[pri:0, instance:cogTestNG.TryTestNG1@378542de]" started-at="2022-01-15T10:04:54 CST" name="tngmethod1" finished-at="2022-01-15T10:04:58 CST" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tngmethod1 -->
+        <test-method is-config="true" signature="tngmethod3(org.testng.ITestResult)[pri:0, instance:cogTestNG.TryTestNG1@378542de]" started-at="2022-01-15T10:04:58 CST" name="tngmethod3" finished-at="2022-01-15T10:04:58 CST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tngmethod1 status=SUCCESS method=TryTestNG1.tngmethod1()[pri:0, instance:cogTestNG.TryTestNG1@378542de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tngmethod3 -->
+      </class> <!-- cogTestNG.TryTestNG1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
